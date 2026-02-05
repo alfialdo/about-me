@@ -10,60 +10,59 @@ interface Project {
   featured?: boolean;
 }
 
-// TODO: Add actual projects data and urls
 const projects: Project[] = [
   {
     title: 'Drone Localization with Sensor Fusion',
     description: 'Part of Drone SLAM project focused on localizing drone and measuring the relative distance with multi sensors integration.',
     techStack: ['Python', 'C++', 'ROS2', 'OpenCV', 'AI/ML'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/alfialdo/ros2-drone-localization',
     featured: true,
   },
   {
-    title: 'Findtech | AI-based Laptop Recommender',
-    description: 'Tools to assist people find their suitable and proper Laptops/Notebooks by answering basic non-technical questions.',
-    techStack: ['Python', 'Scikit Learn', 'Scrapy', 'Streamlit'],
-    githubUrl: '#',
+    title: 'Findtech | ML-based Laptop Recommender',
+    description: 'Friendly and fast ML-based Laptop/Notebook recommender tools for non-technical persons. Included with end-to-end ML-based app deployment and integration.',
+    techStack: ['Playwright', 'Scikit Learn', 'Docker', 'Streamlit', 'Supabase', 'CI/CD'],
+    githubUrl: 'https://github.com/alfialdo/Findtech',
+    liveUrl: 'https://github.com/alfialdo/Findtech',
+    featured: true,
+  },
+  {
+    title: 'Personal Profile Website',
+    description: 'Website showcasing my interests in tech knowledge and professional journey.',
+    techStack: ['Java Script', 'React', 'Tailwind CSS', 'HTML'],
+    githubUrl: 'https://github.com/alfialdo/about-me',
     liveUrl: '#',
     featured: true,
   },
-  {
-    title: 'About Me Website',
-    description: 'Website explaining my journey area and interests in tech knowledge and implementation.',
-    techStack: ['Java Script', 'Next JS', 'Tailwind CSS', 'HTML'],
-    githubUrl: '#',
-    liveUrl: '#',
-    featured: true,
-  },
-  {
-    title: 'A/B Testing & Analysis',
-    description: 'Project to explore data and perform a/b test for control and treatment group.',
-    techStack: ['Python', 'Statistics', 'A/B Test'],
-    githubUrl: '#',
-  },
+  // {
+  //   title: 'A/B Testing & Analysis',
+  //   description: 'Project to explore data and perform a/b test for control and treatment group.',
+  //   techStack: ['Python', 'Statistics', 'A/B Test'],
+  //   githubUrl: '#',
+  // },
   {
     title: 'ML Experiment Templates',
     description: 'Custom AI/ML experiment that provide necessary needs, configuration, and tools to ease model development.',
     techStack: ['Python', 'DVC', 'Poetry'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/alfialdo/ml-experiment',
   },
   {
     title: 'Fashion Bundle Recommendation',
     description: 'Content-based recommendation system with focuses on what makes business profitability by increasing the AOV and maximizing inventory management.',
     techStack: ['Python', 'Pandas', 'Recommendation', 'XGboost'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/alfialdo/fashion-bundle-recom',
   },
   {
     title: 'Human Activity Recognition via Radar',
     description: 'Developed feature engineering calculation to convert raw Radar data into cleaned spectograms followed by ML model to recognize 6 activities with 91% accuracy.',
     techStack: ['Python', 'PyTorch', 'Scipy', 'FFT'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/alfialdo/radar-human-activity',
   },
   {
-    title: 'Lightweight Multimodal UAV Segmentation',
-    description: 'Implementation of multimodal semantic segmentation framework for UAV perception using RGB/IR imagery.',
+    title: 'Dynamic Multimodal UAV Detection',
+    description: 'Implementation of multimodal detection framework for UAV perception using RGB/IR imagery with ~85% accuracy.',
     techStack: ['Python', 'PyTorch', 'OpenCV', 'DVC'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/alfialdo/multimodal-uav-det',
   },
 ];
 
@@ -76,7 +75,7 @@ const ProjectsSection = () => {
       <div className="section-container">
         {/* Section Header */}
         <h2 className="font-heading text-h2 md:text-3xl font-bold text-foreground mb-4">
-          <span className="text-primary">03.</span> My Featured Projects
+          <span className="text-primary">03.</span> Featured Projects
         </h2>
         <p className="text-muted-foreground mb-12 max-w-xl">
           A selection of projects that showcase my approach and technical implementation to solve engineering and business challenges.
@@ -97,6 +96,7 @@ const ProjectsSection = () => {
                       href={project.githubUrl}
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="View GitHub repository"
+                      target="_blank"
                     >
                       <Github className="w-5 h-5" />
                     </a>
@@ -106,6 +106,7 @@ const ProjectsSection = () => {
                       href={project.liveUrl}
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="View live demo"
+                      target="_blank"
                     >
                       <ExternalLink className="w-5 h-5" />
                     </a>
@@ -145,6 +146,7 @@ const ProjectsSection = () => {
                       href={project.githubUrl}
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="View GitHub repository"
+                      target="_blank"
                     >
                       <Github className="w-4 h-4" />
                     </a>
@@ -154,6 +156,7 @@ const ProjectsSection = () => {
                       href={project.liveUrl}
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="View live demo"
+                      target="_blank"
                     >
                       <ExternalLink className="w-4 h-4" />
                     </a>

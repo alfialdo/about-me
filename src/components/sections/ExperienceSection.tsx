@@ -8,27 +8,26 @@ interface Experience {
   skills: string[];
 }
 
-// TODO: Add actual projects data and urls
 const experiences: Experience[] = [
   {
     period: '2024 — Now',
     role: 'Computer Vision Researcher',
     company: 'WicomAI Lab Kookmin University',
-    description: 'Led the system design and implementation of Drone SLAM with sensor fusion also the development of lightweight vision algorithm.',
+    description: 'Led the system design and implementation of Drone SLAM with sensor fusion that achieve ±11 cm error at 20 meters. Developed lightweight vision algorithm for edge computing device.',
     skills: ['Python', 'C++', 'ROS2', 'OpenCV', 'PyTorch'],
   },
   {
     period: '2022 — 2025',
     role: 'Data Scientist',
     company: 'Hypefast (Largest House of Digital Native Brands in SEA)',
-    description: 'Built and deployed recommendation systems that increased GMV by 6% without extra marketing cost. Developed enterprise-scale data warehouse include ETL automation for data collections and processing.',
+    description: 'Built and deployed recommendation systems that contribute around $35,600 to monthly revenue with 3.6% CVR. Developed enterprise-scale data warehouse include ETL automation for data collections and processing.',
     skills: ['Python', 'GCP', 'PyTorch', 'Docker', 'SQL', 'Airflow', 'CI/CD', 'A/B Test'],
   },
   {
     period: '2021 — 2022',
     role: 'ML Engineer',
-    company: 'PT PLN - National Electricity Company Research Project',
-    description: 'Designed SQL database and ETL process for storing cleaned residents data all over Jakarta. Built end-to-end ML pipelines extract feature and classify electricity theft with around 20% actual hit rate.',
+    company: 'PT PLN (Indonesia National Electricity Company Project)',
+    description: 'Designed SQL database and ETL process for storing cleaned residents data all over Capital City. Built end-to-end ML pipelines extract feature and classify electricity theft with around 20% actual hit rate.',
     skills: ['Scikit-learn', 'XGBoost', 'SQL', 'FastAPI'],
   },
   {
@@ -46,7 +45,7 @@ const ExperienceSection = () => {
       <div className="section-container">
         {/* Section Header */}
         <h2 className="font-heading text-h2 md:text-3xl font-bold text-foreground mb-4">
-          <span className="text-primary">02.</span> My Work Experience
+          <span className="text-primary">02.</span> Work Experience
         </h2>
         <p className="text-muted-foreground mb-12 max-w-xl">
           A timeline of my professional journey, from curious analyst to building data-driven systems at scale.
