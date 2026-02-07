@@ -18,7 +18,7 @@ const experiences: Experience[] = [
   },
   {
     period: '2022 — 2025',
-    role: 'Data Scientist',
+    role: 'Data Scientist & MLOps Engineer',
     company: 'Hypefast (Largest House of Digital Native Brands in SEA)',
     description: 'Built and deployed recommendation systems that contribute around $35,600 to monthly revenue with 3.6% CVR. Developed enterprise-scale data warehouse include ETL automation for data collections and processing.',
     skills: ['Python', 'GCP', 'PyTorch', 'Docker', 'SQL', 'Airflow', 'CI/CD', 'A/B Test'],
@@ -27,14 +27,14 @@ const experiences: Experience[] = [
     period: '2021 — 2022',
     role: 'ML Engineer',
     company: 'PT PLN (Indonesia National Electricity Company Project)',
-    description: 'Designed SQL database and ETL process for storing cleaned residents data all over Capital City. Built end-to-end ML pipelines extract feature and classify electricity theft with around 20% actual hit rate.',
+    description: 'Designed a high-volume SQL warehouse to standardize millions of telemetry records across Jawa-Bali. Deployed fraud detection models that identified electricity theft with a 20% verified hit rate.',
     skills: ['Scikit-learn', 'XGBoost', 'SQL', 'FastAPI'],
   },
   {
     period: '2021',
     role: 'Data Scientist',
     company: 'NTUST TEEP 2021 Internship Program',
-    description: 'Analyzed and visualized water dispenser usage behavior. Developed Stacked LSTM-based model to process time series data and predict water dispenser usage with 64% performance (RMSE) compared to baseline method.',
+    description: 'Performed exploratory analysis on IoT telemetry to characterize smart device usage patterns. Developed a Stacked LSTM model for time-series forecasting, reducing prediction error by 64% compared to baseline methods.',
     skills: ['Python', 'Pandas', 'Seaborn', 'NoSQL', 'Statistics'],
   },
 ];
