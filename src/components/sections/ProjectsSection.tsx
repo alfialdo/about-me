@@ -26,14 +26,14 @@ const projects: Project[] = [
     liveUrl: 'https://github.com/alfialdo/Findtech',
     featured: true,
   },
-  {
-    title: 'Personal Profile Website',
-    description: 'Website showcasing my interests in tech knowledge and professional journey.',
-    techStack: ['Java Script', 'React', 'Tailwind CSS', 'HTML'],
-    githubUrl: 'https://github.com/alfialdo/about-me',
-    liveUrl: '#',
-    featured: true,
-  },
+  // {
+  //   title: 'Personal Profile Website',
+  //   description: 'Website showcasing my interests in tech knowledge and professional journey.',
+  //   techStack: ['Java Script', 'React', 'Tailwind CSS', 'HTML'],
+  //   githubUrl: 'https://github.com/alfialdo/about-me',
+  //   liveUrl: '#',
+  //   featured: true,
+  // },
   // {
   //   title: 'A/B Testing & Analysis',
   //   description: 'Project to explore data and perform a/b test for control and treatment group.',

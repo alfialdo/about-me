@@ -67,8 +67,7 @@ const AboutSection = () => {
                 experimental notebooks and production-ready systems, also reducing hours of manual work through automation.
               </p>
               <p>
-                When I'm not wrangling data or tinkering with ML system, you'll find me dribbling basketball, tuning
-                guitar, or exploring new tech knowledge and ideas while sipping cup of coffee~
+               When I'm not wrangling data or recently going down a computer vision rabbit hole, you'll find me tuning my terminal for the best AI vibe coding workflow or exploring new tech ideas while sipping a cup of coffee~
               </p>
             </div>
 
